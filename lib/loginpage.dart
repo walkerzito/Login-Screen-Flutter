@@ -86,7 +86,7 @@ class _LoginPageState extends State<LoginPage> {
       style: const TextStyle(
         fontSize: 32.57,
         color: Colors.white,
-        fontFamily: 'SF Pro Text Black'
+        //fontFamily: 'SF Pro Text Black'
       ),
       children: const <TextSpan>[
         TextSpan(text: "Welcome back,"),
@@ -99,7 +99,7 @@ class _LoginPageState extends State<LoginPage> {
     return RichText(text: TextSpan(
       style: const TextStyle(
         fontSize: 32.57,
-        fontFamily: 'SF Pro Text',
+        //fontFamily: 'SF Pro Text',
         color: Colors.white
       ),
       children: const <TextSpan>[
@@ -114,7 +114,7 @@ class _LoginPageState extends State<LoginPage> {
     var line = UnderlineInputBorder(borderSide: BorderSide(color: Colors.white));
 
     return TextField(
-      style: const TextStyle(color: Colors.white, fontFamily: 'SF Pro Text'),
+      style: const TextStyle(color: Colors.white),
       controller: controller,
       decoration: InputDecoration(
         hintText: hintText,
@@ -146,7 +146,7 @@ class _LoginPageState extends State<LoginPage> {
           child: Text("Entrar", 
           textAlign: TextAlign.center,
           style:TextStyle(
-            fontFamily: 'SF Pro Text',
+            //fontFamily: 'SF Pro Text',
             fontSize: 19.209,
             color: Color.fromRGBO(37, 36, 44, 1)
           ),
@@ -160,7 +160,7 @@ class _LoginPageState extends State<LoginPage> {
     return const Text("Esqueceu a senha?",
     textAlign: TextAlign.center,
     style: TextStyle(
-      fontFamily: 'SF Pro Text',
+      //fontFamily: 'SF Pro Text',
       decoration: TextDecoration.underline,
       fontSize: 12.3,
       color: Color.fromRGBO(94, 200, 248, 1)
@@ -172,7 +172,7 @@ class _LoginPageState extends State<LoginPage> {
     return const Text("Crie sua conta",
     textAlign: TextAlign.end,
     style: TextStyle(
-      fontFamily: 'SF Pro Text',
+      //fontFamily: 'SF Pro Text',
       decoration: TextDecoration.underline,
       fontSize: 17.22,
       color: Color.fromRGBO(94, 200, 248, 1),

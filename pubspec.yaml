@@ -68,12 +68,3 @@ flutter:
 
   # For details regarding adding assets from package dependencies, see
   # https://flutter.dev/assets-and-images/#from-packages
-
-  fonts:
-    - family: SF Pro Text
-      fonts:
-        - asset: build/app/intermediates/assets/debug/flutter_assets/fonts/SF-Pro-Text-Regular.otf
-    - family: SF Pro Text Black
-      fonts:
-        - asset: build/app/intermediates/assets/debug/flutter_assets/fonts/SF-Pro-Text-Black.otf        
-        - weight: 700
